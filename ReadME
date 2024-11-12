@@ -1,17 +1,20 @@
 classDiagram
     class ReprodutorMusical {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        void tocar();
+        void pausar();
+        void selecionarMusica(String musica);
     }
 
     class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        void ligar(String numero);
+        void atender();
+        void iniciarCorreioVoz();
     }
 
     class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+         void exibirPagina(String url);
+        void adicionarNovaAba();
+        void atualizarPagina();
     }
 
     class iPhone {
